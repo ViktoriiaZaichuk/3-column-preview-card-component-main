@@ -1,0 +1,32 @@
+/* RESPONSIVE */
+@media only screen and (max-width: 1000px) {
+    .card-container {
+        max-width: 90vw;
+    }
+    .card-container > div {
+        padding: 3rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+        height: 100%;
+        margin: 5rem 0 6rem 0;
+        max-width: 70vw;
+    }
+    .card-container > div {
+        padding: 5rem;
+    }
+    p {
+        color: $neutralWhite;
+        padding-bottom: 3rem;
+    }
+}
+
+
+@media only screen and (max-width: 550px) {
+    .card-container {
+        max-width: 90vw;
+    }
+}
